@@ -7,14 +7,59 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		200ACC001FD22BA00088BC54 /* bTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200ACBFF1FD22BA00088BC54 /* bTableViewCell.swift */; };
+		2017FD311FC4292500F62FBE /* BSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2017FD301FC4292500F62FBE /* BSearchViewController.swift */; };
 		202F3E711FC3B70D00454126 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202F3E701FC3B70D00454126 /* AppDelegate.swift */; };
 		202F3E731FC3B70D00454126 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202F3E721FC3B70D00454126 /* ViewController.swift */; };
 		202F3E761FC3B70D00454126 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 202F3E741FC3B70D00454126 /* Main.storyboard */; };
 		202F3E781FC3B70D00454126 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 202F3E771FC3B70D00454126 /* Assets.xcassets */; };
 		202F3E7B1FC3B70D00454126 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 202F3E791FC3B70D00454126 /* LaunchScreen.storyboard */; };
+		202F3E831FC3DB8300454126 /* ASearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202F3E821FC3DB8300454126 /* ASearchViewController.swift */; };
+		206354951FC6A29700ED823B /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 206354941FC6A28D00ED823B /* Charts.framework */; };
+		206354961FC6A29700ED823B /* Charts.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 206354941FC6A28D00ED823B /* Charts.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		2063549B1FC6B6E900ED823B /* aTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2063549A1FC6B6E900ED823B /* aTableViewCell.swift */; };
+		2080D3EF1FC50C910027F02D /* workTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2080D3EE1FC50C910027F02D /* workTableViewCell.swift */; };
+		2080D3F11FC50E1A0027F02D /* workViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2080D3F01FC50E1A0027F02D /* workViewController.swift */; };
+		2087C7541FC7EC3D00D6F2B0 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2087C7531FC7EC3D00D6F2B0 /* SwiftyJSON.swift */; };
+		2087C75E1FC805D300D6F2B0 /* QQViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2087C75D1FC805D300D6F2B0 /* QQViewController.swift */; };
+		2087C7651FC8156800D6F2B0 /* GDataXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 2087C7641FC8156800D6F2B0 /* GDataXMLNode.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		2087C7661FC815A800D6F2B0 /* libxml2.2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2087C7381FC7BE5100D6F2B0 /* libxml2.2.tbd */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		206354931FC6A28D00ED823B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2063548F1FC6A28A00ED823B /* Charts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 65AD9E95D9ED4DC0BD73A743;
+			remoteInfo = Charts;
+		};
+		206354971FC6A29700ED823B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2063548F1FC6A28A00ED823B /* Charts.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = A58A4ED274A941CA248EA921;
+			remoteInfo = Charts;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2063548C1FC6A1AE00ED823B /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				206354961FC6A29700ED823B /* Charts.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		200ACBFF1FD22BA00088BC54 /* bTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bTableViewCell.swift; sourceTree = "<group>"; };
+		2017FD301FC4292500F62FBE /* BSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BSearchViewController.swift; sourceTree = "<group>"; };
 		202F3E6D1FC3B70D00454126 /* 考勤.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "考勤.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		202F3E701FC3B70D00454126 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		202F3E721FC3B70D00454126 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +67,17 @@
 		202F3E771FC3B70D00454126 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		202F3E7A1FC3B70D00454126 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		202F3E7C1FC3B70D00454126 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		202F3E821FC3DB8300454126 /* ASearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASearchViewController.swift; sourceTree = "<group>"; };
+		2063548F1FC6A28A00ED823B /* Charts.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Charts.xcodeproj; path = "../../999的副本/IOS框架/Charts-master/Charts-master/Charts.xcodeproj"; sourceTree = "<group>"; };
+		2063549A1FC6B6E900ED823B /* aTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aTableViewCell.swift; sourceTree = "<group>"; };
+		2080D3EE1FC50C910027F02D /* workTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = workTableViewCell.swift; sourceTree = "<group>"; };
+		2080D3F01FC50E1A0027F02D /* workViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = workViewController.swift; sourceTree = "<group>"; };
+		2087C7381FC7BE5100D6F2B0 /* libxml2.2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.2.tbd; path = usr/lib/libxml2.2.tbd; sourceTree = SDKROOT; };
+		2087C7531FC7EC3D00D6F2B0 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = "../../999的副本/IOS框架/SwiftyJSON-master/SwiftyJSON-master/Source/SwiftyJSON.swift"; sourceTree = "<group>"; };
+		2087C75D1FC805D300D6F2B0 /* QQViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QQViewController.swift; sourceTree = "<group>"; };
+		2087C7621FC814ED00D6F2B0 /* 考勤_bridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "考勤_bridge.h"; sourceTree = "<group>"; };
+		2087C7631FC8156200D6F2B0 /* GDataXMLNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GDataXMLNode.h; path = "../../999的副本/IOS框架/GDataXml/hangge_646_1/GDataXML/GDataXMLNode.h"; sourceTree = "<group>"; };
+		2087C7641FC8156800D6F2B0 /* GDataXMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GDataXMLNode.m; path = "../../999的副本/IOS框架/GDataXml/hangge_646_1/GDataXML/GDataXMLNode.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +85,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2087C7661FC815A800D6F2B0 /* libxml2.2.tbd in Frameworks */,
+				206354951FC6A29700ED823B /* Charts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +98,7 @@
 			children = (
 				202F3E6F1FC3B70D00454126 /* 考勤 */,
 				202F3E6E1FC3B70D00454126 /* Products */,
+				2087C7371FC7BE5100D6F2B0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +113,42 @@
 		202F3E6F1FC3B70D00454126 /* 考勤 */ = {
 			isa = PBXGroup;
 			children = (
+				2087C7531FC7EC3D00D6F2B0 /* SwiftyJSON.swift */,
 				202F3E701FC3B70D00454126 /* AppDelegate.swift */,
 				202F3E721FC3B70D00454126 /* ViewController.swift */,
+				2087C7631FC8156200D6F2B0 /* GDataXMLNode.h */,
+				2087C7641FC8156800D6F2B0 /* GDataXMLNode.m */,
 				202F3E741FC3B70D00454126 /* Main.storyboard */,
 				202F3E771FC3B70D00454126 /* Assets.xcassets */,
 				202F3E791FC3B70D00454126 /* LaunchScreen.storyboard */,
+				2063548F1FC6A28A00ED823B /* Charts.xcodeproj */,
 				202F3E7C1FC3B70D00454126 /* Info.plist */,
+				202F3E821FC3DB8300454126 /* ASearchViewController.swift */,
+				2017FD301FC4292500F62FBE /* BSearchViewController.swift */,
+				2080D3EE1FC50C910027F02D /* workTableViewCell.swift */,
+				2080D3F01FC50E1A0027F02D /* workViewController.swift */,
+				2063549A1FC6B6E900ED823B /* aTableViewCell.swift */,
+				2087C75D1FC805D300D6F2B0 /* QQViewController.swift */,
+				2087C7621FC814ED00D6F2B0 /* 考勤_bridge.h */,
+				200ACBFF1FD22BA00088BC54 /* bTableViewCell.swift */,
 			);
 			path = "考勤";
+			sourceTree = "<group>";
+		};
+		206354901FC6A28A00ED823B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				206354941FC6A28D00ED823B /* Charts.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2087C7371FC7BE5100D6F2B0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2087C7381FC7BE5100D6F2B0 /* libxml2.2.tbd */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,10 +161,12 @@
 				202F3E691FC3B70D00454126 /* Sources */,
 				202F3E6A1FC3B70D00454126 /* Frameworks */,
 				202F3E6B1FC3B70D00454126 /* Resources */,
+				2063548C1FC6A1AE00ED823B /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				206354981FC6A29700ED823B /* PBXTargetDependency */,
 			);
 			name = "考勤";
 			productName = "考勤";
@@ -111,12 +200,28 @@
 			mainGroup = 202F3E641FC3B70D00454126;
 			productRefGroup = 202F3E6E1FC3B70D00454126 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 206354901FC6A28A00ED823B /* Products */;
+					ProjectRef = 2063548F1FC6A28A00ED823B /* Charts.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				202F3E6C1FC3B70D00454126 /* 考勤 */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		206354941FC6A28D00ED823B /* Charts.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Charts.framework;
+			remoteRef = 206354931FC6A28D00ED823B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		202F3E6B1FC3B70D00454126 /* Resources */ = {
@@ -136,12 +241,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2080D3F11FC50E1A0027F02D /* workViewController.swift in Sources */,
+				2080D3EF1FC50C910027F02D /* workTableViewCell.swift in Sources */,
+				202F3E831FC3DB8300454126 /* ASearchViewController.swift in Sources */,
+				200ACC001FD22BA00088BC54 /* bTableViewCell.swift in Sources */,
+				2087C7541FC7EC3D00D6F2B0 /* SwiftyJSON.swift in Sources */,
+				2063549B1FC6B6E900ED823B /* aTableViewCell.swift in Sources */,
+				2017FD311FC4292500F62FBE /* BSearchViewController.swift in Sources */,
+				2087C7651FC8156800D6F2B0 /* GDataXMLNode.m in Sources */,
+				2087C75E1FC805D300D6F2B0 /* QQViewController.swift in Sources */,
 				202F3E731FC3B70D00454126 /* ViewController.swift in Sources */,
 				202F3E711FC3B70D00454126 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		206354981FC6A29700ED823B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Charts;
+			targetProxy = 206354971FC6A29700ED823B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		202F3E741FC3B70D00454126 /* Main.storyboard */ = {
@@ -273,12 +395,18 @@
 		202F3E801FC3B70D00454126 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3573DAWXXP;
+				HEADER_SEARCH_PATHS = "${SDK_DIR}/usr/include/libxml2";
 				INFOPLIST_FILE = "考勤/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Foxconn-38.--";
+				OTHER_LDFLAGS = "-lxml2";
+				PRODUCT_BUNDLE_IDENTIFIER = "Foxconn-38.JIANAN";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "考勤/考勤_bridge.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -287,12 +415,18 @@
 		202F3E811FC3B70D00454126 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3573DAWXXP;
+				HEADER_SEARCH_PATHS = "${SDK_DIR}/usr/include/libxml2";
 				INFOPLIST_FILE = "考勤/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Foxconn-38.--";
+				OTHER_LDFLAGS = "-lxml2";
+				PRODUCT_BUNDLE_IDENTIFIER = "Foxconn-38.JIANAN";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "考勤/考勤_bridge.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
